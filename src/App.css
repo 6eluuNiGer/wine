@@ -1,0 +1,71 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  padding-left: 0;
+  /* width: 100wh; */
+  min-width:100%;
+        min-height:100%;
+}
+
+
+
+
+/* .App {
+  display: flex;
+  text-align: center; 
+   
+   background-size: 100%;
+} */
+/* 
+@media screen and (max-width: 600px) {
+  .container_main {
+    width:35rem ;
+   
+  }
+} */
+
+
+
+/**//**//**//**//**//**//**//**//**/
+
+
+
+/**//**//**//**//**//**/
+
+
+
+
+
+/**//**//**/
+
+.boll{
+  position: absolute;
+  left:200px;
+  bottom: -1780px;
+  width: 152px;
+height: 152px;
+border-radius: 76px;
+filter: drop-shadow(0 0 57px #880047);
+background-image: radial-gradient(circle at center, #d5006f 0%, #7c0040 100%);
+z-index: 4;
+}
+/* . ellipe{
+  position: absolute;
+  left:1200px;
+  bottom: -1780px;
+  width: 200px;
+height: 200px;
+  border-radius: 131px;
+filter: drop-shadow(0px 3px 28.5px #d1006e);
+background-color: #003362;
+border: 40px solid #840044;
+}  */
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}

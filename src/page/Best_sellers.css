@@ -1,0 +1,134 @@
+.container_best_sell{
+ 
+    height: 100vh;
+    width: 100%;
+    background-color: #000000;
+   background-repeat: no-repeat;    
+    background-position: center center;      
+    background-size: cover;
+    z-index: 3;
+  }
+  
+  
+  div.best_sellers_title{
+    display: flex;
+    justify-content: center;
+  }
+  .best_sellers_title{
+    font-size: 22px;
+  letter-spacing: 2px;
+  line-height: 13px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 3%;
+  letter-spacing: 3px;
+  
+  }
+  div.container{
+    position: absolute;
+    left: 200px;
+    top:750px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    width: 70%;
+  }
+  
+  .item {
+    margin-left: 10px;
+    width: 250px;
+    height: 1px;
+    padding-bottom: 23%; 
+    margin-bottom: 2%; 
+    border: 1px solid #ffffff;
+  }
+  .img{
+    position: absolute;
+    top: -1px;
+    width: 250px;
+    height: auto;
+    
+  }
+  .img_title{
+    position: absolute;
+    top:136px;
+    background-color: #ffffff;
+    font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight: 500;
+  text-align: center;
+  width: 220px;
+  height: 70px;
+  filter: drop-shadow(0 0 17.5px #000000);
+  background-image: linear-gradient(90deg, #141e30 0%, #243b55 100%);
+  text-transform: uppercase;
+  display: flex;
+  text-align: start;
+  }
+  p.img_title{
+    justify-content: flex-start;
+    padding-left: 30px;
+  }
+  p.img_title_low{
+    display: flex;
+    justify-content: flex-start;
+    width: 154px;
+    height: 35px;
+    padding-left: 10px;
+    word-spacing: -1px;
+  
+  }
+  
+  .img_title_low{
+    
+    position: absolute;
+    top: 160px;
+    font-size: 10px;
+  letter-spacing: 1px;
+  line-height: 15px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight: 500;
+  text-align: center;
+  }
+  p.price{
+   display: flex;
+   justify-content: center;
+   width: 45px;
+  height: 24px; 
+  position: absolute;
+  top: 110px;
+  left: 216px;
+  }
+  .price{
+  
+  
+  filter: drop-shadow(0 0 3px rgba(0,0,0,0.53));
+  background-color: black;
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: 0px;
+  line-height: 23px;
+  
+  font-family: "Roboto";
+  font-weight: 500;
+  text-align: center;
+  }
+  .more_button{
+    position: absolute;
+    top: 200px;
+    color: #db462c;
+    border: none;
+    background: none;
+    left: 205px;
+  }
